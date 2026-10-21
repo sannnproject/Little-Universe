@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <radialGradient id="velvetBg" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" stop-color="#381B33"/>
+      <stop offset="55%" stop-color="#1D1021"/>
+      <stop offset="100%" stop-color="#100C18"/>
+    </radialGradient>
+    <radialGradient id="roseBlush" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#FFF5EF"/>
+      <stop offset="45%" stop-color="#F2A7B8"/>
+      <stop offset="85%" stop-color="#9E425B"/>
+      <stop offset="100%" stop-color="#5B1F33"/>
+    </radialGradient>
+    <radialGradient id="roseBurgundy" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#E27B93"/>
+      <stop offset="45%" stop-color="#722F47"/>
+      <stop offset="85%" stop-color="#441628"/>
+      <stop offset="100%" stop-color="#240B15"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="900" fill="url(#velvetBg)"/>
+
+  <!-- Warm window sunbeam -->
+  <polygon points="0,0 680,0 1200,680 1200,900 380,900 0,420" fill="#E6C99A" opacity="0.07"/>
+
+  <!-- Botanical stems & leaves -->
+  <g stroke="#6D7B58" stroke-width="5" fill="none" opacity="0.7">
+    <path d="M600 850 Q560 650 470 430"/>
+    <path d="M600 850 Q630 640 720 450"/>
+    <path d="M600 850 Q600 680 610 520"/>
+  </g>
+  <g fill="#3E4E3A" opacity="0.75">
+    <path d="M535 610 Q460 580 440 625 Q490 655 535 610 Z"/>
+    <path d="M650 630 Q725 600 745 645 Q695 675 650 630 Z"/>
+    <path d="M565 710 Q490 690 475 735 Q525 760 565 710 Z"/>
+  </g>
+
+  <!-- Left Burgundy Garden Rose -->
+  <g transform="translate(465, 410)">
+    <circle cx="0" cy="0" r="115" fill="url(#roseBurgundy)"/>
+    <circle cx="-18" cy="-12" r="82" fill="url(#roseBurgundy)" opacity="0.9"/>
+    <path d="M-45 -15 Q0 -65 48 -12 Q15 48 -45 -15 Z" fill="#9E425B" opacity="0.65"/>
+    <path d="M-24 -6 Q0 -34 28 -4 Q8 26 -24 -6 Z" fill="#F2A7B8" opacity="0.75"/>
+    <circle cx="0" cy="-4" r="14" fill="#E6C99A" opacity="0.8"/>
+  </g>
+
+  <!-- Right Soft Rose Bloom -->
+  <g transform="translate(725, 435)">
+    <circle cx="0" cy="0" r="105" fill="url(#roseBlush)"/>
+    <circle cx="12" cy="-10" r="74" fill="url(#roseBlush)" opacity="0.9"/>
+    <path d="M-38 -10 Q5 -52 42 -8 Q12 40 -38 -10 Z" fill="#FFF5EF" opacity="0.65"/>
+    <circle cx="4" cy="-4" r="12" fill="#E6C99A" opacity="0.9"/>
+  </g>
+
+  <!-- Center Foreground Bloom -->
+  <g transform="translate(605, 525)">
+    <circle cx="0" cy="0" r="125" fill="url(#roseBlush)"/>
+    <circle cx="-8" cy="-8" r="92" fill="url(#roseBurgundy)" opacity="0.82"/>
+    <circle cx="4" cy="-6" r="58" fill="url(#roseBlush)" opacity="0.92"/>
+    <circle cx="2" cy="-4" r="24" fill="#FFF5EF" opacity="0.9"/>
+  </g>
+
+  <!-- Golden Ribbon Tie -->
+  <path d="M555 755 Q600 770 645 755 Q685 810 720 845 M555 755 Q520 815 490 850" stroke="#E6C99A" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.85"/>
+</svg>
