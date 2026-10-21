@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="nightSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#07050C"/>
+      <stop offset="45%" stop-color="#130D21"/>
+      <stop offset="78%" stop-color="#291734"/>
+      <stop offset="100%" stop-color="#4B2138"/>
+    </linearGradient>
+    <radialGradient id="milkyWay" cx="52%" cy="38%" r="55%">
+      <stop offset="0%" stop-color="#F2A7B8" stop-opacity="0.28"/>
+      <stop offset="45%" stop-color="#722F47" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#07050C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#nightSky)"/>
+  <ellipse cx="820" cy="340" rx="680" ry="240" transform="rotate(-18 820 340)" fill="url(#milkyWay)"/>
+
+  <!-- Constellation Lines (Heart & Cassiopeia motif) -->
+  <g stroke="#E6C99A" stroke-width="1" opacity="0.38" fill="none">
+    <polyline points="720,240 765,195 800,230 835,195 880,240 800,335 720,240"/>
+    <polyline points="320,280 390,240 450,275 520,210"/>
+    <polyline points="1120,220 1190,260 1250,215 1320,250"/>
+  </g>
+
+  <!-- Starfield -->
+  <g fill="#FFF5EF">
+    <circle cx="720" cy="240" r="3" fill="#E6C99A"/>
+    <circle cx="765" cy="195" r="2.8" fill="#F2A7B8"/>
+    <circle cx="800" cy="230" r="2.5"/>
+    <circle cx="835" cy="195" r="2.8" fill="#F2A7B8"/>
+    <circle cx="880" cy="240" r="3" fill="#E6C99A"/>
+    <circle cx="800" cy="335" r="3.4" fill="#FFF5EF"/>
+
+    <circle cx="180" cy="140" r="1.8" opacity="0.8"/>
+    <circle cx="260" cy="210" r="1.2" opacity="0.6"/>
+    <circle cx="320" cy="280" r="2.2" opacity="0.9"/>
+    <circle cx="390" cy="240" r="1.9" opacity="0.8"/>
+    <circle cx="450" cy="275" r="2.1" opacity="0.85"/>
+    <circle cx="520" cy="210" r="2.5" opacity="0.9"/>
+    <circle cx="610" cy="120" r="1.5" opacity="0.7"/>
+    <circle cx="960" cy="130" r="1.8" opacity="0.75"/>
+    <circle cx="1120" cy="220" r="2.2" opacity="0.85"/>
+    <circle cx="1190" cy="260" r="1.9" opacity="0.8"/>
+    <circle cx="1250" cy="215" r="2.4" opacity="0.9"/>
+    <circle cx="1320" cy="250" r="2" opacity="0.85"/>
+    <circle cx="1440" cy="160" r="1.7" opacity="0.7"/>
+    <circle cx="1380" cy="390" r="1.5" opacity="0.65"/>
+    <circle cx="240" cy="430" r="1.6" opacity="0.7"/>
+  </g>
+
+  <!-- Shooting Star -->
+  <line x1="1020" y1="120" x2="1140" y2="175" stroke="#FFF5EF" stroke-width="2" stroke-linecap="round" opacity="0.75"/>
+
+  <!-- Calm Night Sea & Horizon -->
+  <rect x="0" y="680" width="1600" height="220" fill="#0B0713"/>
+  <path d="M0 680 L1600 680" stroke="#F2A7B8" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- Starlight reflection on water -->
+  <g fill="#E6C99A" opacity="0.35">
+    <ellipse cx="800" cy="705" rx="90" ry="2.5"/>
+    <ellipse cx="800" cy="725" rx="70" ry="2"/>
+    <ellipse cx="800" cy="748" rx="52" ry="1.8"/>
+    <ellipse cx="800" cy="775" rx="35" ry="1.5"/>
+  </g>
+</svg>
