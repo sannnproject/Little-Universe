@@ -1,0 +1,6 @@
+{
+  "name": "A Little Universe, Just for You",
+  "description": "Sebuah ruang kecil berisi kata-kata, kenangan, dan perasaan yang ingin kusampaikan kepadamu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
