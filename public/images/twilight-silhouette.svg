@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200">
+  <defs>
+    <linearGradient id="twilightSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0B0812"/>
+      <stop offset="35%" stop-color="#1E1126"/>
+      <stop offset="68%" stop-color="#5B243B"/>
+      <stop offset="88%" stop-color="#C8758E"/>
+      <stop offset="100%" stop-color="#E6C99A"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="32%" r="42%">
+      <stop offset="0%" stop-color="#F2A7B8" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#722F47" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#100C18" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="1200" fill="url(#twilightSky)"/>
+  <rect width="900" height="1200" fill="url(#moonGlow)"/>
+
+  <!-- Crescent Moon & Twilight Stars -->
+  <path d="M470 240 A46 46 0 1 1 430 315 A36 36 0 1 0 470 240 Z" fill="#FFF5EF" opacity="0.92"/>
+  <g fill="#FFF5EF" opacity="0.75">
+    <circle cx="160" cy="180" r="2"/>
+    <circle cx="290" cy="120" r="1.5"/>
+    <circle cx="640" cy="150" r="2.2"/>
+    <circle cx="750" cy="260" r="1.6"/>
+    <circle cx="210" cy="360" r="1.4"/>
+    <circle cx="690" cy="410" r="1.8"/>
+    <circle cx="380" cy="460" r="1.2"/>
+  </g>
+
+  <!-- Soft hills -->
+  <path d="M0 920 Q260 860 520 910 Q740 950 900 890 L900 1200 L0 1200 Z" fill="#1B0F21"/>
+  <path d="M0 970 Q450 910 900 975 L900 1200 L0 1200 Z" fill="#100C18"/>
+
+  <!-- Embracing Couple Silhouette Under Twilight -->
+  <g transform="translate(385, 725)">
+    <!-- Tall figure -->
+    <circle cx="48" cy="32" r="18" fill="#100C18"/>
+    <path d="M24 56 Q48 48 68 58 L76 155 L64 235 L48 235 L46 165 L34 235 L20 235 L22 150 Z" fill="#100C18"/>
+    <!-- Leaning partner -->
+    <circle cx="82" cy="44" r="16.5" fill="#100C18"/>
+    <path d="M62 66 Q82 60 100 70 L114 168 L94 174 L90 235 L76 235 L74 174 L64 235 Z" fill="#100C18"/>
+    <!-- Delicate golden twilight outline -->
+    <path d="M66 32 A18 18 0 0 1 62 48" stroke="#E6C99A" stroke-width="1.5" fill="none" opacity="0.65"/>
+    <path d="M68 44 A16.5 16.5 0 0 0 72 58" stroke="#F2A7B8" stroke-width="1.5" fill="none" opacity="0.65"/>
+  </g>
+</svg>
