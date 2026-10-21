@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900">
+  <defs>
+    <linearGradient id="beachSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E1224"/>
+      <stop offset="35%" stop-color="#58253C"/>
+      <stop offset="65%" stop-color="#C86D81"/>
+      <stop offset="100%" stop-color="#E6C99A"/>
+    </linearGradient>
+    <linearGradient id="beachWater" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8B3F58"/>
+      <stop offset="45%" stop-color="#3D1C31"/>
+      <stop offset="100%" stop-color="#160D1C"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="480" fill="url(#beachSky)"/>
+  <circle cx="600" cy="430" r="85" fill="#FFF5EF" opacity="0.88"/>
+
+  <!-- Ocean & Waves -->
+  <rect x="0" y="460" width="1200" height="440" fill="url(#beachWater)"/>
+
+  <!-- Gentle Foam Wave Curves -->
+  <path d="M0 580 Q320 555 640 590 Q940 625 1200 585 L1200 605 Q940 645 640 610 Q320 575 0 600 Z" fill="#E6C99A" opacity="0.45"/>
+  <path d="M0 690 Q380 650 760 700 Q1020 730 1200 695 L1200 715 Q1020 750 760 720 Q380 670 0 710 Z" fill="#F2A7B8" opacity="0.4"/>
+  <path d="M0 790 Q420 745 840 805 Q1060 830 1200 800 L1200 900 L0 900 Z" fill="#120B18" opacity="0.85"/>
+
+  <!-- Shimmering Sunlight Path -->
+  <g fill="#FFF5EF" opacity="0.65">
+    <ellipse cx="600" cy="482" rx="120" ry="4"/>
+    <ellipse cx="600" cy="502" rx="105" ry="3.5"/>
+    <ellipse cx="600" cy="526" rx="92" ry="3.5"/>
+    <ellipse cx="600" cy="554" rx="78" ry="3"/>
+    <ellipse cx="600" cy="635" rx="64" ry="3"/>
+    <ellipse cx="600" cy="668" rx="48" ry="2.5"/>
+  </g>
+</svg>
