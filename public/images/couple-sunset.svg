@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#100C18"/>
+      <stop offset="28%" stop-color="#251529"/>
+      <stop offset="56%" stop-color="#722F47"/>
+      <stop offset="78%" stop-color="#C96A7B"/>
+      <stop offset="94%" stop-color="#E6C99A"/>
+      <stop offset="100%" stop-color="#FFF5EF"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="62%" cy="68%" r="48%">
+      <stop offset="0%" stop-color="#FFF5EF" stop-opacity="0.95"/>
+      <stop offset="20%" stop-color="#E6C99A" stop-opacity="0.75"/>
+      <stop offset="50%" stop-color="#F2A7B8" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#100C18" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sea" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4A1F34"/>
+      <stop offset="40%" stop-color="#251529"/>
+      <stop offset="100%" stop-color="#100C18"/>
+    </linearGradient>
+    <linearGradient id="cliff" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1C1022"/>
+      <stop offset="100%" stop-color="#0B0811"/>
+    </linearGradient>
+    <filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <!-- Sky Backdrop -->
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <rect width="1600" height="900" fill="url(#sunGlow)"/>
+
+  <!-- Stars in upper sky -->
+  <g fill="#FFF5EF" opacity="0.7">
+    <circle cx="220" cy="110" r="1.5"/>
+    <circle cx="480" cy="75" r="2"/>
+    <circle cx="790" cy="130" r="1.2"/>
+    <circle cx="1050" cy="90" r="1.8"/>
+    <circle cx="1360" cy="140" r="1.5"/>
+    <circle cx="1470" cy="70" r="2.2"/>
+    <circle cx="620" cy="190" r="1.3"/>
+    <circle cx="310" cy="210" r="1.6"/>
+  </g>
+
+  <!-- Setting Sun -->
+  <circle cx="992" cy="605" r="96" fill="#FFF5EF" opacity="0.9" filter="url(#softBlur)"/>
+  <circle cx="992" cy="605" r="64" fill="#FFF5EF" opacity="0.95"/>
+
+  <!-- Soft distant clouds -->
+  <path d="M120 420 Q320 390 520 425 Q740 450 920 415 L920 440 L120 440 Z" fill="#F2A7B8" opacity="0.16" filter="url(#softBlur)"/>
+  <path d="M780 480 Q1040 445 1290 475 Q1450 495 1560 470 L1560 505 L780 505 Z" fill="#E6C99A" opacity="0.2" filter="url(#softBlur)"/>
+
+  <!-- Distant mountain silhouette -->
+  <path d="M0 640 L180 595 L370 618 L590 575 L820 625 L1180 615 L1410 580 L1600 620 L1600 660 L0 660 Z" fill="#2B162C" opacity="0.85"/>
+
+  <!-- Ocean & Shimmering Golden Reflection -->
+  <rect x="0" y="640" width="1600" height="260" fill="url(#sea)"/>
+  <g fill="#E6C99A" opacity="0.55">
+    <ellipse cx="992" cy="656" rx="130" ry="4"/>
+    <ellipse cx="992" cy="672" rx="110" ry="3.5"/>
+    <ellipse cx="992" cy="690" rx="95" ry="3"/>
+    <ellipse cx="992" cy="712" rx="82" ry="3.5"/>
+    <ellipse cx="992" cy="738" rx="68" ry="2.8"/>
+    <ellipse cx="992" cy="768" rx="52" ry="2.2"/>
+  </g>
+
+  <!-- Coastal Cliff & Meadow Foreground -->
+  <path d="M0 710 Q380 675 740 725 Q1120 775 1600 720 L1600 900 L0 900 Z" fill="url(#cliff)"/>
+
+  <!-- Romantic Couple Silhouette Walking Together at Golden Hour -->
+  <g transform="translate(1060, 580)">
+    <!-- Warm rim halo -->
+    <ellipse cx="46" cy="95" rx="64" ry="85" fill="#E6C99A" opacity="0.18" filter="url(#softBlur)"/>
+    <!-- Partner 1 -->
+    <circle cx="26" cy="26" r="14" fill="#120B18"/>
+    <path d="M12 44 Q26 40 38 45 L44 108 L34 162 L24 162 L25 112 L16 162 L6 162 L10 105 Z" fill="#120B18"/>
+    <!-- Partner 2 -->
+    <circle cx="68" cy="34" r="13" fill="#120B18"/>
+    <path d="M55 50 Q68 46 80 52 L92 122 L76 126 L74 162 L64 162 L62 126 L54 162 L45 162 L50 118 Z" fill="#120B18"/>
+    <!-- Joined Hands -->
+    <path d="M36 68 Q47 84 58 72" stroke="#120B18" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <!-- Rim light accent on shoulders -->
+    <path d="M14 44 Q26 40 38 45" stroke="#E6C99A" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <path d="M56 50 Q68 46 79 52" stroke="#F2A7B8" stroke-width="1.5" fill="none" opacity="0.7"/>
+  </g>
+</svg>
