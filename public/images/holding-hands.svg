@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" width="900" height="900">
+  <defs>
+    <radialGradient id="warmBokeh" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#722F47"/>
+      <stop offset="52%" stop-color="#251529"/>
+      <stop offset="100%" stop-color="#100C18"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="900" height="900" fill="url(#warmBokeh)"/>
+
+  <!-- Soft Golden Hour Bokeh Circles -->
+  <g fill="#E6C99A" opacity="0.18">
+    <circle cx="220" cy="240" r="65"/>
+    <circle cx="690" cy="210" r="85"/>
+    <circle cx="730" cy="640" r="70"/>
+    <circle cx="190" cy="680" r="55"/>
+    <circle cx="450" cy="440" r="140"/>
+  </g>
+  <g fill="#F2A7B8" opacity="0.15">
+    <circle cx="340" cy="190" r="45"/>
+    <circle cx="590" cy="710" r="60"/>
+    <circle cx="450" cy="440" r="95"/>
+  </g>
+
+  <!-- Minimalist Continuous Line Art of Two Hands Gently Intertwined -->
+  <g stroke="#FFF5EF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Left Arm & Hand reaching in -->
+    <path d="M120 560 Q250 510 345 455 Q395 425 435 445 Q465 460 445 490 Q420 515 385 505"/>
+    <path d="M355 525 Q415 545 465 525 Q495 510 485 485"/>
+    <path d="M335 565 Q405 585 460 560"/>
+    <path d="M295 605 Q375 620 435 592"/>
+    <path d="M140 650 Q235 625 295 605"/>
+
+    <!-- Right Arm & Hand holding gently -->
+    <path d="M780 370 Q640 410 545 450 Q495 470 465 450 Q445 432 470 408 Q500 390 540 405" stroke="#E6C99A"/>
+    <path d="M530 485 Q475 495 435 475" stroke="#E6C99A"/>
+    <path d="M555 525 Q490 540 445 518" stroke="#E6C99A"/>
+    <path d="M760 485 Q650 510 555 525" stroke="#E6C99A"/>
+  </g>
+
+  <!-- Subtle Glowing Heart Above Joined Hands -->
+  <path d="M450 315 C450 298 426 285 412 300 C398 315 412 338 450 362 C488 338 502 315 488 300 C474 285 450 298 450 315 Z" fill="#F2A7B8" opacity="0.75"/>
+</svg>
